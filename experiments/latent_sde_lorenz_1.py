@@ -15,12 +15,6 @@
 """Train a latent SDE on data from a stochastic Lorenz attractor.
 
 Reproduce the toy example in Section 7.2 of https://arxiv.org/pdf/2001.01328.pdf
-
-To run this file, first run the following to install extra requirements:
-pip install fire
-
-To run, execute:
-python -m examples.latent_sde_lorenz
 """
 import logging
 import os
